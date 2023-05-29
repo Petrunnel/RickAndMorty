@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">RickAndMorty</string>
+    <string name="searchbar_hint">Search</string>
+    <string name="no_internet">No internet connection</string>
+    <string name="dialog_about_title">Об авторе</string>
+    <string name="dialog_about_message">Разработал\nстудент группы АС573\nКотыло Павел</string>
+    <string name="dialog_positive_button_text">OK</string>
+</resources>
