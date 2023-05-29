@@ -79,6 +79,8 @@ class SearchFragment : Fragment(R.layout.fragment_search) {
 
             override fun onTextChanged(s: CharSequence?, start: Int, before: Int, count: Int) {
                 viewModel.setName(s.toString())
+                if (!RickAndMortyApplication.isNetworkAvailable())
+                    requireContext().toastShort(getString(R.string.no_internet))
             }
 
             override fun afterTextChanged(s: Editable?) {}
